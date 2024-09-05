@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+}
+
+.nav-container {
+    border: 3px solid black;
+    height: 55px;
+    background-color: black;
+    color: rgb(172, 167, 167);
+    padding-top: 27px;
+}
+
+.nav-container li {
+    display: inline;
+    padding: 35px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.nav-container li:hover {
+    color: rgb(69, 69, 231) ;
+}
