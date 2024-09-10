@@ -16,7 +16,8 @@ buttons.forEach((btn) => {
         button.querySelector(".color").classList.add("selected")
 
         image.classList.add("changing")
-        image.setAttribute("src", `/img/luminix_${id}.jpg`)
+        image.setAttribute("src", `img/luminix_${id}.jpg`)
+
 
         setTimeout(() => {
             image.classList.toggle("changing")
