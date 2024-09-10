@@ -1,4 +1,4 @@
-const buttons = document.querySelectorAll("#image-picker")
+const buttons = document.querySelectorAll(".image-picker")
 const image = document.querySelector("#product-image")
 
 buttons.forEach((btn) => {
@@ -16,7 +16,7 @@ buttons.forEach((btn) => {
         button.querySelector(".color").classList.add("selected")
 
         image.classList.add("changing")
-        image.setAttribute("src", `img/luminix_${id}.jpg`)
+        image.setAttribute("src", `/img/luminix_${id}.jpg`)
 
         setTimeout(() => {
             image.classList.toggle("changing")

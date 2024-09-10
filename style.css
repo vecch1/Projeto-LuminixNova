@@ -134,16 +134,16 @@ header nav {
     opacity: 0.5;
 }
 
-#image-picker {
+.image-picker {
     margin-bottom: 500px;
 }
 
-#image-picker ul {
+.image-picker ul {
     display: flex;
     justify-content: center;
 }
 
-#image-picker li {
+.image-picker li {
     margin: 1rem;
     display: flex;
     flex-direction: column;
@@ -151,7 +151,7 @@ header nav {
     cursor: pointer;
 }
 
-#image-picker li .color {
+.image-picker li .color {
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
@@ -160,7 +160,7 @@ header nav {
     pointer-events: none;
 }
 
-#Image-picker li .description {
+.Image-picker li .description {
     font-size: 0.7rem;
     color: #1d1d1d;
     margin-top: 0.6rem;
